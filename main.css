@@ -60,7 +60,6 @@ background-color: #F5F5F5; }
 
 #menu h2 {
 
-
   font-size: 3rem;
   font-family: 'Reey';
   color: #1c1e24;
@@ -133,14 +132,8 @@ nav {
 
   font-family: 'Open sans'; sans-serif;
   font-weight: 600;
+  letter-spacing: .1rem;
 }
-
-
-.nav-link:hover {
-  color: white !important;
-}
-
-
 
 
 #logo {
@@ -170,7 +163,7 @@ nav {
   border-radius: 2.5rem;
   border: none;
   padding: 0.5rem 2.5rem 0.5rem 2.5rem;
-
+  cursor:pointer;
 }
 
 
@@ -253,7 +246,8 @@ margin-top: 390px;
   border-bottom-left-radius: 5rem;
   border-top-right-radius: 5rem;
   border-bottom-right-radius: 5rem;
-
+  position: relative;
+  left: 18px;
   height: 2.5rem;
 }
 
@@ -284,8 +278,11 @@ color: white;
   border-radius: 2rem;
   padding: 0.5rem 2.5rem 0.5rem 2.5rem;
   cursor:pointer;
+  position: relative;
+  right: 18px;
   font-family: 'Open sans', Arial; sans-serif;
   font-weight: 600;
+  height: 2.5rem;
   text-transform: uppercase;
 
 }
@@ -355,13 +352,13 @@ background-size: 200%;
     }
 
 
-                #newsletter input {
-                  border-top-left-radius: 5rem;
-                  border-bottom-left-radius: 5rem;
+  #newsletter input {
+    border-top-left-radius: 5rem;
+    border-bottom-left-radius: 5rem;
 
-                  border-bottom-right-radius: : 0 !important;
-                  height: 2.5rem;
-                }
+    border-bottom-right-radius: : 0 !important;
+    height: 2.5rem;
+  }
 
 
 
@@ -405,15 +402,9 @@ background-size: 200%;
 }
 
 
-#pasta1  {
+#pasta1 #pasta2 {
       width:50rem;
  }
-
-#pasta2 {
-
-width: 50rem;
-
-}
 
 
 #section3
@@ -448,7 +439,7 @@ width: 50rem;
 
 
 
-.top-left{
+.top-left {
 
   position: absolute;
   top: 350px;
@@ -595,495 +586,6 @@ footer {
    }
 
 
-
-   @media only screen
-       and (device-width : 375px)
-       and (device-height : 812px)
-       and (-webkit-device-pixel-ratio : 3) {
-
-         .top-left{
-
-           top: 100px;
-           left: 50px;
-           color: white;
-           font-family: 'Reey';
-           font-size: 1.5rem;
-       }
-
-
-       #section6 h2 {
-
-         font-size: 1.2rem;
-         font-family: 'Reey';
-       text-align: center;
-         color: #363636;
-       }
-
-       #section6 h4 {
-
-
-         font-size: 0.7rem;
-         font-family: 'Open Sans', Arial; sans-serif;
-         color: #3d3d3d;
-         font-weight: 700;
-         padding-bottom: 100%;
-
-
-       }
-
-       #section6 p {
-
-         position: absolute;
-         font-size: 0.6rem;
-         font-family: 'Open Sans Regular';
-         color: #2a3b40;
-         text-align: center;
-
-         }
-
-
-       #h22 {
-
-       position: absolute;
-       bottom:  20%
-       left: -60px;
-       right: -100px;
-       }
-
-       #h23  {
-
-       position: absolute;
-       top:  110px;
-       left: -60px;
-       right: -70px;
-
-       }
-
-       #h24 {
-
-       position: absolute;
-       top:  190px;
-       right: -70px;
-       left: -210px;
-
-       }
-
-
-       #p22 {
-
-       position: absolute;
-       top: 100%;
-       left:-80%;
-       right: -50%;
-       }
-
-       #p23 {
-
-       position: absolute;
-       top: 300%;
-       left:-80%;
-       right: -50%;
-       }
-
-
-
-       #p24 {
-
-       position: absolute;
-       top: 500%;
-       left:-80%;
-       right: -50%;
-
-       }
-
-
-         #h26  {
-           position: absolute;
-           font-family: 'Open Sans';
-           font-weight: 600;
-           color: #3d3d3d;
-           top: 160%;
-           font-size: 0.2rem;
-
-         }
-
-
-       #pizza img {
-
-           height: 5%;
-       }
-
-
-       #pizza h2 {
-
-
-         font-size: 1rem;
-         font-family: 'Reey';
-         color: white;
-         bottom: 100px;
-         left: 100px;
-       }
-
-
-       #pizza p {
-
-         font-family: 'Montserrat';
-         color: white;
-         font-size: 0.8rem;
-
-       }
-
-
-       #pizza {
-
-         background: url("img/6/bg2.png") no-repeat;
-         background-size: 200%;
-         height: 640px;
-         background-position: bottom center;
-
-
-       }
-
-       #pizza .row {
-
-         display: -ms-flexbox;
-         display: flex;
-         -ms-flex-wrap: wrap;
-         flex-wrap: wrap;
-         margin-right: -15px;
-         margin-left: -15px;
-         margin-top: -270px;
-       }
-
-       .titlepizza {
-
-       margin-top: 390px;
-
-       }
-
-
-       #pasta1 {
-
-             width:200rem;
-
-        }
-
-
-        #pasta2 {
-
-          position: absolute;
-              width:100rem;
-              bottom: 80%;
-         }
-
-
-
-
-       #section3
-
-       .bottom-left {
-         position: absolute;
-         bottom: 8px;
-         left: 16px;
-         color: white;
-         font-family: 'Open Sans', Arial, sans-serif;
-         font-weight: 600;
-         }
-
-
-       #p7 {
-
-         font-family: 'Open Sans Regular'; sans-serif;
-         color:#222528;
-         font-weight: 500;
-         font-size: 0.8rem;
-         text-align: center;
-
-       }
-
-
-       #p8 {
-
-       position: absolute;
-       font-family: 'Open Sans Regular'; sans-serif;
-       color:#222528;
-       font-weight: 500;
-       font-size: 0.8rem;
-       text-align: center;
-       top: 60%;
-
-
-       }
-
-
-       #h27 {
-
-         font-family: 'Open Sans';sans-serif;
-         font-weight: 700;
-         font-size: 1rem;
-         color: #212428;
-         position: absolute;
-         bottom: 190%;
-
-       }
-
-
-       #h28 {
-
-         position: absolute;
-         font-family: 'Open Sans';sans-serif;
-         font-weight: 700;
-         font-size: 1rem;
-         color: #212428;
-         bottom: 100%;
-
-       }
-
-
-       #bt7 {
-         position: absolute;
-         background: #212428;
-         font-family:'Open sans'; sans-serif;
-         font-weight:700;
-         letter-spacing: .2rem;
-         top: 90%;
-         left: 8%;
-       PADDING-LEFT: 8px;
-       PADDING-RIGHT: 8px;
-       PADDING-TOP: 5px;
-       PADDING-BOTTOM: 5px;
-       }
-
-
-       #bt8 {
-         position: absolute;
-         background: #212428;
-         font-family:'Open sans'; sans-serif;
-         font-weight:700;
-         letter-spacing: .2rem;
-         top: 700%;
-         left: 1%;
-         PADDING-LEFT: 8px;
-         PADDING-RIGHT: 8px;
-         PADDING-TOP: 5px;
-         PADDING-BOTTOM: 5px;
-       }
-
-
-
-       #section3 .container-fluid {
-
-
-       width: 100%;
-       padding-right: 15px;
-       padding-left: 15px;
-       margin-right: auto;
-       margin-left: auto;
-       margin-bottom: 100px;
-
-
-
-       }
-
-
-
-
-
-
-
-
-       #ourstory h2 {
-
-
-         text-align: center;
-         z-index:2;
-
-         font-size: 1.2rem;
-         font-family: 'Reey';
-         color: white;
-
-       }
-
-
-
-
-       #ourstory .p1, .p2 {
-       text-align: center;
-       }
-
-       #ourstory button {
-
-
-         left: 50%;
-         top: 10px;
-         transform: translate(-50%, -50%);
-         border-top-left-radius: 0.80rem;
-         border-bottom-left-radius: 0.80rem;
-         border-top-right-radius: 0.80rem;
-         border-bottom-right-radius: 0.80rem;
-         text-align: center;
-         background: #e8e9e9;
-         font-family:'Montserrat';
-         font-weight:800;
-         color:#212428
-
-       }
-
-       #ourstory {
-
-         background: left 50% / 15% 90% repeat-x url("img/3/shape1");
-
-
-       }
-
-
-
-
-       #menu button {
-
-         position: absolute;
-         left: 88px;
-         top: 100%;
-         letter-spacing: .2rem;
-         transform: translate(-50%, -50%);
-         z-index:2;
-         background: #313131;
-         font-family:'Open sans'; sans-serif;
-         font-weight:800;
-
-       }
-
-       #menu img {
-
-           width: 10rem;
-       }
-
-
-       #menu h2 {
-
-
-         font-size: 1.8rem;
-         font-family: 'Reey';
-         color: #1c1e24;
-         bottom:100%;
-       }
-
-
-       #menu h3 {
-
-
-         font-size: 1.50rem;
-         font-family: 'Open Sans'; sans-serif;
-         font-weight: 700;
-         color: #313131;
-         text-align: left;
-       }
-
-
-
-       #menu p {
-
-         font-family: 'Open sans Regular'; sans-serif;
-         color: #2a2d31;
-         font-size: 1rem;
-         text-align: left;
-         }
-
-       #menu .p2 {
-
-
-       text-align: center;
-
-       }
-
-
-
-
-       #li  {
-
-         position:absolute;
-         top:45%;
-         left:40px;
-         width:250px;
-
-         z-index:2;
-         font-size:60%;
-         color:white;
-         font-family:'Open Sans'; sans-serif;
-         font-style: italic;
-
-       }
-
-       #li2 {
-
-
-       position:absolute;
-       top:40%;
-       left:40px;
-       width:600px;
-
-       z-index: 2;
-       font-size:80%;
-       color:white;
-       font-family:'Open Sans', Arial; sans-serif;
-       font-style: italic;
-       letter-spacing: .2rem;
-
-       }
-
-
-       .button1  {
-
-         position: absolute;
-         top: 60%;
-         left:11%;
-         background: #ebebec;
-         font-family:'Open sans', Arial, sans-serif;
-         font-weight:800;
-         font-size: 0.6rem;
-         color: #292c31;
-         z-index: 999;
-         border-radius: 2.5rem;
-         border: none;
-         padding: 0.5rem 2.5rem 0.5rem 2.5rem;
-
-       }
-
-
-
-       #logo {
-
-         top:10px;
-         left:10px;
-         width:57px;
-         height:40px;
-
-       }
-
-
-       .navbar-toggler-icon {
-
-       margin-left: 8rem;
-       margin-top: -2rem;
-
-       }
-
-
-
-       .banner {
-       background: url("img/1/mobile.jpg") no-repeat;
-       background-size: 250%;
-       height: 500px;
-       background-position: top center;
-       width: 100%;
-       }
-
-
-
-
-
-
-
    @media (max-width: 640px) {
    	* {
    		box-sizing: border-box;
@@ -1203,6 +705,7 @@ left: -210px;
 
       }
 
+/* PIZZA */
 
     #pizza img {
 
@@ -1211,7 +714,6 @@ left: -210px;
 
 
     #pizza h2 {
-
 
       font-size: 1rem;
       font-family: 'Reey';
@@ -1237,10 +739,9 @@ left: -210px;
       height: 640px;
       background-position: bottom center;
 
-
     }
 
-#pizza .row {
+      #pizza .row {
 
       display: -ms-flexbox;
       display: flex;
@@ -1257,10 +758,11 @@ left: -210px;
 
     }
 
+/* PASTA */
 
     #pasta1 {
 
-          width:200rem;
+    width:200rem;
 
      }
 
@@ -1268,12 +770,12 @@ left: -210px;
      #pasta2 {
 
        position: absolute;
-           width:100rem;
-           bottom: 80%;
+       width:100rem;
+       bottom: 80%;
+
       }
 
-
-
+/* SECTION 3 */
 
     #section3
 
@@ -1311,7 +813,6 @@ left: -210px;
 
 }
 
-
     #h27 {
 
       font-family: 'Open Sans';sans-serif;
@@ -1322,7 +823,6 @@ left: -210px;
       bottom: 190%;
 
     }
-
 
     #h28 {
 
@@ -1337,13 +837,13 @@ left: -210px;
 
 
     #bt7 {
-      position: absolute;
-      background: #212428;
-      font-family:'Open sans'; sans-serif;
-      font-weight:700;
-      letter-spacing: .2rem;
-      top: 90%;
-      left: 8%;
+    position: absolute;
+    background: #212428;
+    font-family:'Open sans'; sans-serif;
+    font-weight:700;
+    letter-spacing: .2rem;
+    top: 90%;
+    left: 8%;
     PADDING-LEFT: 8px;
     PADDING-RIGHT: 8px;
     PADDING-TOP: 5px;
@@ -1352,17 +852,17 @@ left: -210px;
 
 
     #bt8 {
-      position: absolute;
-      background: #212428;
-      font-family:'Open sans'; sans-serif;
-      font-weight:700;
-      letter-spacing: .2rem;
-      top: 700%;
-      left: 1%;
-      PADDING-LEFT: 8px;
-      PADDING-RIGHT: 8px;
-      PADDING-TOP: 5px;
-      PADDING-BOTTOM: 5px;
+    position: absolute;
+    background: #212428;
+    font-family:'Open sans'; sans-serif;
+    font-weight:700;
+    letter-spacing: .2rem;
+    top: 700%;
+    left: 1%;
+    PADDING-LEFT: 8px;
+    PADDING-RIGHT: 8px;
+    PADDING-TOP: 5px;
+    PADDING-BOTTOM: 5px;
     }
 
 
@@ -1381,19 +881,12 @@ left: -210px;
 
 }
 
-
-
-
-
-
-
+/* OUR STORY */
 
     #ourstory h2 {
 
-
       text-align: center;
       z-index:2;
-
       font-size: 1.2rem;
       font-family: 'Reey';
       color: white;
@@ -1401,27 +894,24 @@ left: -210px;
     }
 
 
-
-
     #ourstory .p1, .p2 {
-text-align: center;
+      text-align: center;
     }
 
     #ourstory button {
 
-
-      left: 50%;
-      top: 10px;
-      transform: translate(-50%, -50%);
-      border-top-left-radius: 0.80rem;
-      border-bottom-left-radius: 0.80rem;
-      border-top-right-radius: 0.80rem;
-      border-bottom-right-radius: 0.80rem;
-      text-align: center;
-      background: #e8e9e9;
-      font-family:'Montserrat';
-      font-weight:800;
-      color:#212428
+    left: 50%;
+    top: 10px;
+    transform: translate(-50%, -50%);
+    border-top-left-radius: 0.80rem;
+    border-bottom-left-radius: 0.80rem;
+    border-top-right-radius: 0.80rem;
+    border-bottom-right-radius: 0.80rem;
+    text-align: center;
+    background: #e8e9e9;
+    font-family:'Montserrat';
+    font-weight:800;
+    color:#212428
 
     }
 
@@ -1429,11 +919,9 @@ text-align: center;
 
       background: left 50% / 15% 90% repeat-x url("img/3/shape1");
 
-
     }
 
-
-
+/* MENU */
 
     #menu button {
 
@@ -1476,7 +964,6 @@ text-align: center;
     }
 
 
-
     #menu p {
 
       font-family: 'Open sans Regular'; sans-serif;
@@ -1487,12 +974,9 @@ text-align: center;
 
     #menu .p2 {
 
-
     text-align: center;
 
     }
-
-
 
 
     #li  {
@@ -1512,12 +996,10 @@ text-align: center;
 
     #li2 {
 
-
     position:absolute;
     top:40%;
     left:40px;
     width:600px;
-
     z-index: 2;
     font-size:80%;
     color:white;
@@ -1541,9 +1023,9 @@ text-align: center;
       border-radius: 2.5rem;
       border: none;
       padding: 0.5rem 2.5rem 0.5rem 2.5rem;
+      cursor:pointer;
 
     }
-
 
 
     #logo {
@@ -1555,15 +1037,19 @@ text-align: center;
 
     }
 
-
 .navbar-toggler-icon {
 
 margin-left: 8rem;
-margin-top: -2rem;
+margin-top: -3rem;
 
 }
 
+.navbar {
+    font-weight: 100;
+    -webkit-box-shadow: none;
+    box-shadow: none;
 
+}
 
 .banner {
   background: url("img/1/mobile.jpg") no-repeat;
@@ -1573,15 +1059,9 @@ margin-top: -2rem;
   width: 100%;
 }
 
-
-
-
-
-
-
   @viewport {
      width: device-width; /* largeur du viewport */
-     zoom: 1; /* zoom initial à 1.0 (et clin d'oeil aux fans d'IE6/7) */
+     zoom: 1; 
   }
 
   @media (max-device-width:768px) and (orientation: landscape) {
