@@ -327,7 +327,7 @@ color: white;
 
 #ourstory {
 
-  background: left 50% / 15% 60% repeat-x url("img/3/shape1");
+  background: left 50% / 15% 60% repeat-x url("img/3/shape1.png");
 }
 
 
@@ -613,7 +613,7 @@ footer {
 
       font-size: 1.2rem;
       font-family: 'Reey';
-text-align: center;
+      text-align: center;
       color: #363636;
     }
 
@@ -624,7 +624,7 @@ text-align: center;
       font-family: 'Open Sans', Arial; sans-serif;
       color: #3d3d3d;
       font-weight: 700;
-      padding-bottom: 100%;
+      padding-bottom: 150%;
 
 
     }
@@ -643,7 +643,7 @@ text-align: center;
 #h22 {
 
   position: absolute;
-  bottom:  20%
+  bottom:  30%
   left: -60px;
   right: -100px;
 }
@@ -651,7 +651,7 @@ text-align: center;
 #h23  {
 
 position: absolute;
-top:  110px;
+top:  145px;
 left: -60px;
 right: -70px;
 
@@ -660,7 +660,7 @@ right: -70px;
 #h24 {
 
 position: absolute;
-top:  190px;
+top:  280px;
 right: -70px;
 left: -210px;
 
@@ -668,40 +668,41 @@ left: -210px;
 
 
 #p22 {
-
-  position: absolute;
-  top: 100%;
-  left:-80%;
-  right: -50%;
+transform: translate(30%, -50%);
+  top: 150%;
+  left:-10%;
+  right: -100%;
 }
 
 #p23 {
 
-  position: absolute;
-  top: 300%;
-  left:-80%;
-  right: -50%;
-}
+
+  transform: translate(-50%, -50%);
+  top: 450%;
+  left:40%;
+  right: -150%;
+  }
 
 
 
 #p24 {
 
-  position: absolute;
-  top: 500%;
-  left:-80%;
+  bottom: -790%;
+  left: -60%;
   right: -50%;
-
+  transform: translate(-50%, -50%);
 }
 
 
       #h26  {
-        position: absolute;
+        transform: translate(-50%, -50%);
         font-family: 'Open Sans';
         font-weight: 600;
         color: #3d3d3d;
-        top: 160%;
+        top: 145%;
         font-size: 0.2rem;
+        right: -100%;
+        left:50%;
 
       }
 
@@ -772,6 +773,7 @@ left: -210px;
        position: absolute;
        width:100rem;
        bottom: 80%;
+       padding-bottom: -80%;
 
       }
 
@@ -917,7 +919,7 @@ left: -210px;
 
     #ourstory {
 
-      background: left 50% / 15% 90% repeat-x url("img/3/shape1");
+      background: left 50% / 15% 90% repeat-x url("img/3/shape1.png");
 
     }
 
@@ -1061,7 +1063,7 @@ margin-top: -3rem;
 
   @viewport {
      width: device-width; /* largeur du viewport */
-     zoom: 1; 
+     zoom: 1;
   }
 
   @media (max-device-width:768px) and (orientation: landscape) {
