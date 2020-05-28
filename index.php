@@ -76,19 +76,19 @@
               <br>
             <div class="row mx-auto">
               <div class="col-lg-4 col-sm-5 text-center">
-                <img src="img/2/Img-1.png"
+                <img src="img/2/img-1.png"
                       alt="Responsive image">
                 <h3>Lorem ipsum</h3>
                 <p class="mx-auto my-3">Lorem ipsum dolor sit amet,consectetur  adipisicing...</p>
               </div>
               <div class="col-lg-4 col-sm-12 text-center">
-                <img src="img/2/Img-2.png"
+                <img src="img/2/img-2.png"
                       alt="Responsive image">
                 <h3>Lorem ipsum</h3>
                 <p class="mx-auto my-3">Lorem ipsum dolor sit amet,consectetur  adipisicing...</p>
               </div>
               <div class="col-lg-4 col-sm-12 text-center">
-                <img src="img/2/Img-3.png"
+                <img src="img/2/img-3.png"
                       alt="Responsive image">
                 <h3>Lorem ipsum</h3>
                 <p class="mx-auto my-3">Lorem ipsum dolor sit amet,consectetur  adipisicing...</p>
@@ -157,7 +157,7 @@
   <div class="row p-5 d-flex justify-content-center align-items-center">
 
         <div class="col-lg-6 col-sm-12 mt-4">
-         <img id="pasta1"src="img/4/Img-6.png" class="img-fluid" alt="Pasta">
+         <img id="pasta1"src="img/4/img-6.png" class="img-fluid" alt="Pasta">
         </div>
 
         <div class="col-lg-6 col-sm-12">
@@ -186,7 +186,7 @@
                </div>
 
             <div class="col-lg-6 col-sm-12 d-flex justify-content-center align-items-center mt-5">
-              <img id="pasta2" src="img/5/Img-7.png" class="img-fluid" alt="Pasta">
+              <img id="pasta2" src="img/5/img-7.png" class="img-fluid" alt="Pasta">
                </div>
                 </div>
                 </div>
@@ -209,7 +209,7 @@
 
           <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore</p>
 
-           <img src="img/6/Rectangle.png" class="img-fluid">
+           <img src="img/6/rectangle.png" class="img-fluid">
 
           </div>
         </div>
@@ -299,8 +299,6 @@
    </section>
 
 
-
-<!-- PAGE 8 -->
 
 
 
