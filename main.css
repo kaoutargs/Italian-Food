@@ -4,6 +4,9 @@ body {
     padding: 0;
   }
 
+  html {
+    scroll-behavior: smooth;
+  }
 
 h3 {
   font-size: 2rem;
@@ -14,8 +17,6 @@ h3 {
 .scrollbar-pink::-webkit-scrollbar {
 width: 12px;
 background-color: #F5F5F5; }
-
-
 
 .has-search .form-control {
     padding-left: 0.1rem;
@@ -57,7 +58,6 @@ background-color: #F5F5F5; }
     width: 16rem;
 }
 
-
 #menu h2 {
 
   font-size: 3rem;
@@ -65,7 +65,6 @@ background-color: #F5F5F5; }
   color: #1c1e24;
 
 }
-
 
 #menu h3 {
 
@@ -76,8 +75,6 @@ background-color: #F5F5F5; }
   color: #313131;
   text-align: left;
 }
-
-
 
 #menu p {
 
@@ -94,9 +91,6 @@ text-align: center;
 
 }
 
-
-
-
 .banner {
   background: url("img/1/image.png") no-repeat;
   background-size: 100%;
@@ -111,8 +105,6 @@ text-align: center;
     text-align: center;
   }
 
-
-
 nav {
 
   text-transform: uppercase;
@@ -126,15 +118,12 @@ nav {
     box-shadow: none;
 }
 
-
-
 #navbarNav a {
 
   font-family: 'Open sans'; sans-serif;
   font-weight: 600;
   letter-spacing: .1rem;
 }
-
 
 #logo {
 
@@ -146,9 +135,6 @@ nav {
   z-index:2;
   font-size:100%;
 }
-
-
-
 
 .button1  {
 
@@ -165,8 +151,6 @@ nav {
   padding: 0.5rem 2.5rem 0.5rem 2.5rem;
   cursor:pointer;
 }
-
-
 
 #li  {
 
@@ -185,7 +169,6 @@ nav {
 
 #li2 {
 
-
 position:absolute;
 top:74%;
 left:180px;
@@ -197,9 +180,7 @@ color:white;
 font-family:'Open Sans', Arial; sans-serif;
 font-style: italic;
 letter-spacing: .2rem;
-
 }
-
 
 .btn {
 
@@ -214,7 +195,6 @@ letter-spacing: .2rem;
   text-transform: uppercase;
 
 }
-
 
 .button:hover {
   transform: scale(1.05);
@@ -231,13 +211,11 @@ letter-spacing: .2rem;
 }
 
 
-
 .titlepizza {
 
 margin-top: 390px;
 
 }
-
 
 #newsletter input {
 
@@ -267,8 +245,6 @@ color: white;
   color: white;
 
 }
-
-
 
 #newsletter button {
 
@@ -323,15 +299,10 @@ color: white;
 }
 
 
-
-
 #ourstory {
 
   background: left 50% / 15% 60% repeat-x url("img/3/shape1.png");
 }
-
-
-
 
 #newsletter {
     background-color: #f6eedf;
@@ -350,8 +321,6 @@ background-position: center center;
 background-size: 200%;
 
     }
-
-
   #newsletter input {
     border-top-left-radius: 5rem;
     border-bottom-left-radius: 5rem;
@@ -359,8 +328,6 @@ background-size: 200%;
     border-bottom-right-radius: : 0 !important;
     height: 2.5rem;
   }
-
-
 
 #ourstory h2 {
 
@@ -372,18 +339,11 @@ background-size: 200%;
   color: white;
 }
 
-
-
-
 #ourstory .p1, .p2 {
-
-
-
 
 }
 
 #ourstory button {
-
 
   left: 120%;
   top: 60px;
@@ -401,11 +361,9 @@ background-size: 200%;
 
 }
 
-
 #pasta1 #pasta2 {
       width:50rem;
  }
-
 
 #section3
 
@@ -424,9 +382,7 @@ background-size: 200%;
   font-family: 'Open Sans Regular'; sans-serif;
   color:#222528;
   font-weight: 500;
-
 }
-
 
 #bt7 #bt8 {
 
@@ -434,10 +390,7 @@ background-size: 200%;
   font-family:'Open sans'; sans-serif;
   font-weight:700;
   letter-spacing: .2rem;
-
 }
-
-
 
 .top-left {
 
@@ -450,13 +403,9 @@ background-size: 200%;
 
 }
 
-
-
 #pizza img {
-
   	height: 5%;
 }
-
 
 #pizza h2 {
 
@@ -467,15 +416,12 @@ background-size: 200%;
   left: 100px;
 }
 
-
 #pizza p {
 
   font-family: 'Montserrat';
   color: white;
 
 }
-
-
 
 #section6 h2 {
 
@@ -504,14 +450,11 @@ text-align: auto;
   }
 
 
-
-
 #h26 {
 
   font-family: 'Open Sans';
   font-weight: 600;
   color: #3d3d3d;
-
 }
 
 #h27 {
@@ -519,16 +462,13 @@ text-align: auto;
   font-family: 'Open Sans';sans-serif;
   font-weight: 700;
   color: #212428;
-
 }
-
 
 #h28 {
 
   font-family: 'Open Sans';sans-serif;
   font-weight: 700;
   color: #212428;
-
 }
 
 .top-left2 {
@@ -539,8 +479,6 @@ text-align: auto;
   font-family: 'Reey';
   font-size: 75px;
 }
-
-
 
 footer {
   background :#ffffff;
@@ -607,8 +545,6 @@ footer {
         font-size: 1.5rem;
    	}
 
-
-
     #section6 h2 {
 
       font-size: 1.2rem;
@@ -619,14 +555,11 @@ footer {
 
     #section6 h4 {
 
-
       font-size: 0.7rem;
       font-family: 'Open Sans', Arial; sans-serif;
       color: #3d3d3d;
       font-weight: 700;
       padding-bottom: 150%;
-
-
     }
 
     #section6 p {
@@ -638,7 +571,6 @@ footer {
       text-align: center;
 
       }
-
 
 #h22 {
 

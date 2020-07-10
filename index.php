@@ -7,9 +7,7 @@
 
 <div class="row">
   <div class="banner img-fluid">
-    <div class="top-left">Italian Food
-    </div>
-
+    <div class="top-left">Italian Food</div>
 
       <nav class="navbar navbar-expand-lg navbar-dark mt-3 justify-content-between">
   <a class="navbar-brand" href="#">
